@@ -75,7 +75,7 @@ const projects = [
   {
     id: 4,
     title: "Assist IT LLP",
-    desc: "A IT support and server hosting company, I've been helping out with.",
+    desc: "A IT support and server hosting company, I've lending my backend expertise to.",
     url: "https://assistit.org",
   },
 ];
