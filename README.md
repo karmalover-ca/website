@@ -25,13 +25,13 @@ git remote remove origin
 Install dependencies
 
 ```bash
-npm install
+yarn
 ```
 
 Start the server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Credits
