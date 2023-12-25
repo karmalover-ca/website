@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        “Don't care about anything but code?" I got you. <br />
+        Here are some of my favorite projects
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -56,27 +56,27 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Lake Effect Robotics 2023 Robot",
+    desc: "The robot and code for the 2023 CHARGED UP First Robotics Competition.",
+    url: "https://github.com/LakeEffectRobotics/LER-2023",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "Discord CrossChat Bot",
+    desc: "A simple Discord bot to enable server-to-server chatting in a single channel.",
+    url: "https://github.com/karmalover-ca/CrossChat",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "Personal Website",
+    desc: "A personal website for showing my socials and interests, forked from satnaing/terminal-portfolio.",
+    url: "https://github.com/karmalover-ca/website",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "Assist IT LLP",
+    desc: "A IT support and server hosting company, I've been helping out with.",
+    url: "https://assistit.org",
   },
 ];
 
