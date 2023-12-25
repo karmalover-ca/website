@@ -13,7 +13,7 @@ git clone https://github.com/karmalover-ca/website.git
 Go to the project directory
 
 ```bash
-cd terminal-portfolio
+cd website
 ```
 
 Remove remote origin
