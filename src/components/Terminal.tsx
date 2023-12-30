@@ -35,12 +35,12 @@ export const commands: Command = [
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },
   { cmd: "projects", desc: "view some of my favorite projects", tab: 5 },
+  { cmd: "secret", desc: "shhh, thats a secret", tab: 7},
   { cmd: "pwd", desc: "print current working directory", tab: 10 },
   { cmd: "socials", desc: "check out my social accounts", tab: 6 },
   { cmd: "themes", desc: "check available themes", tab: 7 },
   { cmd: "welcome", desc: "display hero section", tab: 6 },
   { cmd: "whoami", desc: "about current user", tab: 7 },
-  { cmd: "secret", desc: "shhh thats a secret", tab: 7}
 ];
 
 type Term = {
