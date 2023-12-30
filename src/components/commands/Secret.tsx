@@ -15,7 +15,7 @@ const Secret: React.FC = () => {
 
   return (
     <Wrapper>
-      <span>contact@karmalover.ca</span>
+      <span>&gt;:D</span>
     </Wrapper>
   );
 };
